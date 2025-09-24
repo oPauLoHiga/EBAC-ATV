@@ -24,5 +24,5 @@ def receber_arquivo(file_url):
     else:
         print("Erro ao baixar o arquivo: ", requisicao.json())
 
-#enviar_arquivo()
-receber_arquivo('https://gofile.io/d/ofY2hX')
+enviar_arquivo() #recebe o link pra colocar no #recever_arquivo
+#receber_arquivo('')
