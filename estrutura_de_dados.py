@@ -4,7 +4,6 @@ lista_nomes = ['Ana', 'Marcos', 'Carlos']
 print('Lista de nomes: \n', lista_nomes)
 print('Lista Elemento na Lista: \n', lista_nomes[0])
 
-
 dicionario_pessoa = {
     'nome': 'Ana',
     'idade': 20,
@@ -51,4 +50,4 @@ df.to_csv('dados.csv', index=False)
 df_lido = pd.read_csv('dados.csv')
 print('\n Leitura do CSV \n',df_lido)
 
-
+# 1
